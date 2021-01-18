@@ -3047,6 +3047,21 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
+			.test2 > section > .image:before {
+				-moz-transition: opacity 1s ease;
+				-webkit-transition: opacity 1s ease;
+				-ms-transition: opacity 1s ease;
+				transition: opacity 1s ease;
+				background: #5cb85c;
+				content: '';
+				display: block;
+				height: 100%;
+				left: 0;
+				opacity: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
 		.spotlights > section > .content {
 			padding: 4em 5em 2em 5em ;
 			display: -moz-flex;
@@ -3276,7 +3291,13 @@ input, select, textarea {
 		.wrapper.style3-alt {
 			background-color: #953d75;
 		}
+		.wrapper.style4 {
+			background-color: #5cb85c;
+		}
 
+		.wrapper.style4-alt {
+			background-color: #5cb85c;
+		}
 		.wrapper.fullscreen {
 			display: -moz-flex;
 			display: -webkit-flex;
